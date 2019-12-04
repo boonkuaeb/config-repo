@@ -6,7 +6,7 @@ eureka:
 ecom:
   amqp:
     rabbit:
-      address: localhost:5672 
+      address: localhost:5672
       username: guest
       password: guest
       vhost: /

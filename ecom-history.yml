@@ -8,12 +8,12 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
-ecom:   
-  amqp:     
+ecom:
+  amqp:
     rabbit:
       address: localhost:5672
       username: guest
       password: guest
-      vhost: /
-  exchange: Ecom-exchange
-  queue: Ecom-order-histo-queue
+      vhost: /
+      exchange: Ecom-exchange
+      queue: Ecom-order-histo-queue
