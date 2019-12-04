@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost/ecom       
-    username: root       
-    password: password       
+    url: jdbc:mysql://localhost/ecom
+    username: root
+    password: password
 
 eureka:
   client:

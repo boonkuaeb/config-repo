@@ -2,13 +2,12 @@ spring:
   data:     
     mongodb:
       uri: mongodb://localhost:27017/ecom     
-    datasource:
-      url: jdbc:mysql://localhost/ecom       
-      username: root       
-      password: password       
-      driver-class-name: com.mysql.jdbc.Driver
-
-jpa:
+  datasource:
+    url: jdbc:mysql://localhost/ecom
+    username: root
+    password: password
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
   database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
 
 eureka:
@@ -18,9 +17,9 @@ eureka:
 
 ecom:   
   amqp:     
-    rabbit:       
-      address: localhost:5672       
-      username: guest       
+    rabbit:
+      address: localhost:5672
+      username: guest
       password: guest
       vhost: /
       exchange: Ecom-exchange

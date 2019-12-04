@@ -5,9 +5,9 @@ eureka:
 
 ecom:   
   amqp:     
-    rabbit:       
+    rabbit:
       address: localhost:5672 
-      username: guest       
+      username: guest
       password: guest
       vhost: /
       exchange: Ecom-exchange
