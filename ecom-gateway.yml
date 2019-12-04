@@ -1,24 +1,24 @@
 zuul:
   routes:
-    ecom-core:
+    core:
       path: /core/∗∗
       service-id: ecom-core     
-    ecom-user:
+    user:
       path: /customer/∗∗
       service-id: ecom-user     
-    ecom-cart:
+    cart:
       path: /cart/∗∗
       service-id: ecom-cart     
-    ecom-product:
+    product:
       path: /product/∗∗
       service-id: ecom-product     
-    ecom-history:
+    history:
       path: /orderhistory/∗∗
       service-id: ecom-history     
-    ecom-delivery:
+    delivery:
       path: /delivery/∗∗
       service-id: ecom-delivery
-    ecom-shipping:
+    shipping:
       path: /shipping/∗∗
       service-id: ecom-shipping
 
