@@ -9,6 +9,6 @@ ecom:
       address: localhost:5672
       username: guest
       password: guest
-      vhost: /
+      vhost: /
       exchange: Ecom-exchange
       queue: Ecom-delivery-queue
